@@ -16,6 +16,43 @@
 </head>
 
 <body>
+    <header class="site-header">
+        <?php 
+            include('site-header.php')
+         ?>
+    </header>
+
+    <section class="landing padding-sm">
+        <?php 
+            include('landing-section.php')
+         ?>
+    </section>
+
+    <section class="call-to-action padding-large">
+        <?php 
+            include('cta.php') 
+        ?>
+    </section>
+
+    <section class="article-grid padding-sm">
+        <?php 
+            include('article-grid.php') 
+        ?>
+    </section>
+
+
+    <section class="call-to-action padding-large">
+        <?php 
+            include('cta.php') 
+        ?>
+    </section>
+
+
+    <section class="footer padding-sm">
+        <?php 
+            include('footer.php') 
+        ?>
+    </section>
 </body>
 
 </html>

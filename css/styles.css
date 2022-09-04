@@ -1,0 +1,204 @@
+@import	'meyers-reset.css';
+@import 'reset.css';
+
+
+/*CSS Variables Set Up*/
+:root {
+    --light:  #fff;
+    --dark: #2D3142;
+    --dark-pen:  #2d3142;
+    --accent: #EF8354;
+    --light-pen:  #4f5d75;
+    --gray: #bfc0c0;
+
+    --border:  2px solid black;
+
+}
+
+
+/*Typography Set up*/
+
+:root {
+    --font:  "Helvetica";
+}
+
+.main-heading-fs {
+    font-size:  42px;
+}
+
+.title-fs {
+    font-size: 30px;
+}
+
+.desc-fs {
+    font-size: 24px;
+}
+
+.text-fs {
+    font-size: 16px;
+}
+
+.link-fs {
+    font-size: 14px;
+}
+
+body * {
+    /*border:  1px solid black;*/
+}
+
+body {
+    background-color: var(--light);
+    font-family: var(--font);
+}
+
+inner-column {
+    display:  block;
+}
+
+.padding-sm {
+    padding:  25px 10px;
+}
+
+.padding-large {
+    padding:  50px 10px;
+}
+
+/*header css*/
+header {
+    padding: 10px;
+    /*border:  var(--border);*/
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.2;
+}
+
+p {
+    line-height: 1.4;
+}
+
+masthead {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav.site-menu-bar {
+    display: flex;
+    align-items: center;
+    gap:  10px;
+}
+
+
+/*landing section css*/
+/*.landing-container {
+    padding:  25px 10px;
+}
+*/
+.landing-container picture, .landing-container .landing-text{
+    /*padding:  10px;*/
+}
+
+
+/*.landing-container{
+    padding:  25px 10px;
+}*/
+
+.landing-container .landing-text {
+    padding-top:  25px;
+    padding-bottom: 25px;
+
+
+}
+
+
+/*cta css*/
+
+/*.cta * {
+    border:  var(--border);
+}
+*/
+.cta {
+    display: flex;
+    flex-direction: column;
+    gap:  15px;
+}
+
+/*.cta h3, .cta p, .ag-container *:not(button, button a), .footer-container *:not(.footer-grid *) {
+    padding:  25px 10px;
+
+}*/
+
+button {
+    display:  flex;
+    border:  var(--border);
+    margin-top:  10px;
+    
+}
+
+button a {
+    padding:  16px 32px;
+    text-transform: uppercase;
+    
+
+}
+
+/*article grid css*/
+
+.ag-container {
+    display:  flex;
+    flex-direction: column;
+    gap:  25px;
+
+}
+
+.ag-card-grid {
+    display: flex;
+    flex-direction: column;
+    gap:  15px;
+}
+
+.ag-container .ag-heading, .ag-container .card-container{
+    display:  flex;
+    flex-direction: column;
+    gap:  10px;
+
+    border:  var(--border);
+    padding:  25px 10px;
+}
+
+/*.card-container {
+    padding:  25px 10px;
+    border:  var(--border);
+
+}
+*/
+
+
+/*footer css*/
+
+.footer-grid, .footer-grid > * {
+    display:  flex;
+    flex-direction: column;
+}
+
+.footer-grid {
+    display:  grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+    gap:  15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
