@@ -100,8 +100,8 @@ nav.site-menu-bar {
     padding:  25px 10px;
 }
 */
-.landing-container picture, .landing-container .landing-text{
-    /*padding:  10px;*/
+.landing-container picture img{
+    border: var(--border);
 }
 
 
