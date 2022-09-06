@@ -70,6 +70,7 @@ inner-column {
 header {
     padding: 10px;
     border:  var(--border);
+    /*border:  var(--border);*/
 }
 
 h1, h2, h3, h4 {
