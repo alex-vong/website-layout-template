@@ -9,14 +9,14 @@
 
 		<section class="footer-grid">
 			<section class="fg-heading">
-				<a href="" class="link-fs">Logo</a>
-				<a href="" class="link-fs">Some Page</a>
-				<a href="" class="link-fs">Another Page</a>
+				<a href="" class="desc-fs">Logo</a>
+				<a href="" class="link-fs">+(123)456-7891</a>
+				<a href="" class="link-fs">email@company.com</a>
 			</section>
 
-			<setion class="fg-user">
+			<section class="fg-user">
 				<a href="" class="link-fs">Sign-in</a>
-			</setion>
+			</section>
 
 			<section class="fg-lega;">
 				<a href="" class="link-fs">Legal Thing A</a>
