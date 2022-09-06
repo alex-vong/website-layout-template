@@ -42,9 +42,6 @@
     font-size: 14px;
 }
 
-body * {
-    /*border:  1px solid black;*/
-}
 
 body {
     background-color: var(--light);
@@ -66,7 +63,6 @@ inner-column {
 /*header css*/
 header {
     padding: 10px;
-    /*border:  var(--border);*/
     border:  var(--border);
 }
 
@@ -83,6 +79,7 @@ masthead {
     justify-content: space-between;
 
 }
+
 
 nav.site-menu-bar {
     display: flex;
@@ -128,10 +125,15 @@ nav.site-menu-bar {
     gap:  15px;
 }
 
-/*.cta h3, .cta p, .ag-container *:not(button, button a), .footer-container *:not(.footer-grid *) {
-    padding:  25px 10px;
+.cta button {
+    /*display:  inline-block;*/
+    width:  min(70%, 250px);
+}
 
-}*/
+.cta :is(h2, p), .footer-container :is(h3, p) {
+    border:  var(--border);
+    padding:  15px 10px;
+}
 
 button {
     display:  flex;
@@ -143,7 +145,7 @@ button {
 button a {
     padding:  16px 32px;
     text-transform: uppercase;
-    
+    text-decoration: underline;
 
 }
 
@@ -180,7 +182,15 @@ button a {
 
 
 /*footer css*/
+.footer-container * {
+    /*border:  1px solid red;*/
+}
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 .footer-grid, .footer-grid > * {
     display:  flex;
     flex-direction: column;
@@ -189,10 +199,14 @@ button a {
 .footer-grid {
     display:  grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
-    gap:  15px;
+    gap:  25px 10px;
 }
 
-
+.footer-grid section {
+    display:  flex;
+    gap:  8px;
+    padding:  10px;
+}
 
 
 
