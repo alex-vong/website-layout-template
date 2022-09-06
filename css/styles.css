@@ -23,7 +23,8 @@
 }
 
 .main-heading-fs {
-    font-size:  42px;
+    font-size:  clamp(36px, 5vw, 54px);
+    font-weight: 900;
 }
 
 .title-fs {
@@ -58,6 +59,11 @@ inner-column {
 
 .padding-large {
     padding:  50px 10px;
+}
+
+inner-column {
+    width:  min(95%, 1200px);
+    margin: auto;
 }
 
 /*header css*/
