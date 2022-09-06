@@ -106,6 +106,9 @@ nav.site-menu-bar {
 }*/
 
 .landing-container .landing-text {
+    display: flex;
+    flex-direction: column;
+    gap:  15px;
     padding-top:  25px;
     padding-bottom: 25px;
 
