@@ -69,7 +69,6 @@ inner-column {
 /*header css*/
 header {
     padding: 10px;
-    border:  var(--border);
     /*border:  var(--border);*/
 }
 
@@ -112,11 +111,27 @@ nav.site-menu-bar {
 .landing-container .landing-text {
     display: flex;
     flex-direction: column;
-    gap:  15px;
+    gap:  10px;
     padding-top:  25px;
     padding-bottom: 25px;
 
 
+}
+
+.landing-cta {
+    display:  flex;
+    gap:  10px;
+}
+
+.landing-cta button {
+    /*border:  none;*/
+
+}
+
+
+
+.landing-cta button a {
+    text-decoration: none;
 }
 
 
@@ -129,7 +144,7 @@ nav.site-menu-bar {
 .cta {
     display: flex;
     flex-direction: column;
-    gap:  15px;
+    gap:  10px;
 }
 
 .cta button {
@@ -141,6 +156,8 @@ nav.site-menu-bar {
     border:  var(--border);
     padding:  15px 10px;
 }
+
+
 
 button {
     display:  flex;
@@ -161,14 +178,14 @@ button a {
 .ag-container {
     display:  flex;
     flex-direction: column;
-    gap:  25px;
+    gap:  20px;
 
 }
 
 .ag-card-grid {
     display: flex;
     flex-direction: column;
-    gap:  15px;
+    gap:  10px;
 }
 
 .ag-container .ag-heading, .ag-container .card-container{
@@ -204,19 +221,66 @@ button a {
 }
 
 .footer-grid {
-    display:  grid;
+/*    display:  grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
-    gap:  25px 10px;
+    gap:  25px 10px;*/
+
+    display:  flex;
+    flex-direction: column;
+    gap:  15px;
 }
 
 .footer-grid section {
     display:  flex;
-    gap:  8px;
+    gap:  10px;
     padding:  10px;
 }
 
+/*media queries*/
+
+/*tablets*/
+
+@media (min-width: 700px) {
+    inner-column:not( .site-header inner-column, .landing inner-column) {
+        width: min(70%, 1000px);
+    }
+
+    .landing-container {
+        display:  flex;
+        flex-direction: row-reverse;
+        gap:  15px;
+        flex-basis: 100%;
+
+    }
+
+    .landing-container :is(picture, .landing-text) {
+        width:  50%;
+    }
+
+    .landing-container {
+        flex : 1;
+    }
+
+    .landing-container picture {
+        align-self: center;
+    }
 
 
+    .landing-text p {
+        width:  clamp(36ch, 40vw, 50ch);
+    }
+
+
+
+
+}
+
+
+@media (min-width: 1000px) {
+    .landing-text {
+        align-self: center;
+    }
+}
 
 
 
