@@ -22,7 +22,7 @@
          ?>
     </header>
 
-    <section class="landing padding-sm">
+    <section class="landing">
         <?php 
             include('landing-section.php')
          ?>
@@ -34,14 +34,14 @@
         ?>
     </section>
 
-    <section class="article-grid padding-sm">
+    <section class="article-grid">
         <?php 
             include('article-grid.php') 
         ?>
     </section>
 
 
-    <section class="call-to-action padding-large">
+    <section class="call-to-action">
         <?php 
             include('cta.php') 
         ?>
