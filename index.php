@@ -28,7 +28,7 @@
          ?>
     </section>
 
-    <section class="call-to-action padding-large">
+    <section class="call-to-action">
         <?php 
             include('cta.php') 
         ?>
