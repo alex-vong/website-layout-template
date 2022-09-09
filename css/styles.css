@@ -247,9 +247,7 @@ button a {
 /*tablets*/
 
 @media (min-width: 700px) {
-    inner-column:not( .site-header inner-column, .landing inner-column) {
-        width: min(70%, 1000px);
-    }
+
 
     .landing-container {
         display:  flex;
@@ -291,6 +289,10 @@ button a {
 
 
 @media (min-width: 1000px) {
+
+    inner-column:not( .site-header inner-column, .landing inner-column) {
+        width: min(70%, 1000px);
+    }
     .landing-text {
         align-self: center;
     }
