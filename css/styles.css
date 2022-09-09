@@ -12,6 +12,8 @@
     --gray: #bfc0c0;
 
     --border:  2px solid black;
+    --padding-sm: 20px 15px;
+    --padding-lg: 50px 0;
 
 }
 
