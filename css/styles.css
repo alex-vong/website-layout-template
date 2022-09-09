@@ -274,6 +274,12 @@ button a {
         padding:  50px 10px;
     }
 
+    .article-grid .ag-card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+        grid-gap: 20px 10px;       
+    }
+
 
 }
 
