@@ -15,6 +15,7 @@
     --padding-sm: 20px 15px;
     --padding-lg: 50px 0;
 
+
 }
 
 
@@ -51,20 +52,18 @@ body {
     font-family: var(--font);
 }
 
-inner-column {
-    display:  block;
-}
 
 .padding-sm {
-    padding:  25px 10px;
+    padding:  25px 15px;
 }
 
 .padding-large {
-    padding:  50px 10px;
+    padding:  50px 15px;
 }
 
 inner-column {
-    width:  min(95%, 1200px);
+    display:  block;
+    width:  100%;
     margin: auto;
 }
 
@@ -143,10 +142,21 @@ nav.site-menu-bar {
     border:  var(--border);
 }
 */
+
+.call-to-action {
+    padding: var(--padding-lg);
+}
 .cta {
     display: flex;
     flex-direction: column;
     gap:  10px;
+
+}
+
+
+
+.cta {
+       padding: 50px 15px;
 }
 
 .cta button {
@@ -154,11 +164,15 @@ nav.site-menu-bar {
     width:  min(70%, 250px);
 }
 
-.cta :is(h2, p), .footer-container :is(h3, p) {
+/*.cta :is(h2, p), .footer-container :is(h3, p) {
     border:  var(--border);
     padding:  15px 10px;
-}
+}*/
+.cta, .footer-container {
+    background-color: var(--accent);
+    /*border:  var(--border);*/
 
+}
 
 
 button {
