@@ -188,15 +188,21 @@ button a {
     gap:  10px;
 }
 
-.ag-container .ag-heading, .ag-container .card-container{
+.ag-container .ag-heading, .ag-container .card-container .grid-card  {
     display:  flex;
     flex-direction: column;
+    align-items: flex-start;
     gap:  10px;
 
     border:  var(--border);
     padding:  25px 10px;
 }
-
+/*.ag-container .card-container .grid-card {
+    display:  flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}*/
 /*.card-container {
     padding:  25px 10px;
     border:  var(--border);
