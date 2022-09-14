@@ -48,7 +48,7 @@
     </section>
 
 
-    <section class="footer padding-sm">
+    <section class="footer">
         <?php 
             include('footer.php') 
         ?>
