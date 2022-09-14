@@ -56,14 +56,6 @@ body {
 }
 
 
-.padding-sm {
-    padding:  25px 15px;
-}
-
-.padding-large {
-    padding:  50px 15px;
-}
-
 inner-column {
     display:  block;
     width:  100%;
@@ -72,8 +64,13 @@ inner-column {
 
 /*header css*/
 header {
-    padding: 10px;
-    /*border:  var(--border);*/
+    padding: 25px 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: var(--bg-dark);
 }
 
 h1, h2, h3, h4 {
