@@ -10,9 +10,18 @@
     --accent: #EF8354;
     --light-pen:  #4f5d75;
     --gray: #bfc0c0;
+    --gray:  #e1e1e1;
+
+
+
+    --bg-dark: #223545;
+    --marker:  #7dc587;
+    --pen: #f5f5ee;
+    --highlighter: #dcde78;
 
     --border:  2px solid black;
     --padding-sm: 20px 15px;
+    --padding-sm-top:  20px 0;
     --padding-med:  25px 15px;
     --padding-med-top: 25px 0;
     --padding-lg-top: 50px 0;
@@ -130,27 +139,18 @@ nav.site-menu-bar {
     gap:  10px;
 }
 
-.landing-cta button {
-    /*border:  none;*/
-
-}
-
-
-
 .landing-cta button a {
     text-decoration: none;
 }
 
 
+
+
 /*cta css*/
 
-/*.cta * {
-    border:  var(--border);
-}
-*/
-
 .call-to-action {
-    padding: var(--padding-med-top);
+    padding: 60px 15px;
+    /*padding: inherit 15px;*/
 }
 
 
@@ -158,19 +158,14 @@ nav.site-menu-bar {
     display: flex;
     flex-direction: column;
     gap:  10px;
-
-    padding:  var(--padding-lg);
-    background-color: var(--accent);
-
+    /*padding:  var(--padding-sm);*/
 
 }
 
 
 .cta button {
-    /*display:  inline-block;*/
     width:  min(70%, 250px);
 }
-
 
 
 button {
@@ -215,24 +210,15 @@ button a {
     border:  var(--border);
     padding:  var(--padding-med);
 }
-/*.ag-container .card-container .grid-card {
-    display:  flex;
-    flex-direction: column;
-    align-items: flex-start;
-   
-}*/
-/*.card-container {
-    padding:  25px 10px;
-    border:  var(--border);
 
-}
-*/
 
 
 /*footer css*/
-.footer-container * {
-    /*border:  1px solid red;*/
+
+.footer {
+    padding: var(--padding-lg);
 }
+
 
 .footer-container {
     display: flex;
@@ -266,6 +252,20 @@ button a {
 
 @media (min-width: 700px) {
 
+    inner-column {
+        width:  min(90%, 1100px);
+        margin: auto;
+    }
+
+    .site-menu-bar a:last-child {
+        margin-left: 4rem;
+}
+
+
+    .landing inner-column, header inner-column {
+        width: min(90%, 1200px);
+    }
+
 
     .landing-container {
         display:  flex;
@@ -298,7 +298,7 @@ button a {
 
     .article-grid .ag-card-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
         grid-gap: 20px 10px;       
     }
 
@@ -308,11 +308,14 @@ button a {
 
 @media (min-width: 1000px) {
 
-    inner-column:not( .site-header inner-column, .landing inner-column) {
-        width: min(70%, 1000px);
-    }
     .landing-text {
         align-self: center;
+    }
+
+    .article-grid .ag-card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+        grid-gap: 20px 10px;       
     }
 }
 
