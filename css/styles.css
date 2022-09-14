@@ -94,6 +94,11 @@ nav.site-menu-bar {
     gap:  10px;
 }
 
+.site-menu-bar a:last-child {
+    background-color: var(--marker);
+}
+
+
 
 /*landing section css*/
 
@@ -102,17 +107,13 @@ nav.site-menu-bar {
     padding:  40px 0;
 }
 .landing-container {
-    padding:  var(--padding-med);
+    padding:  var(--padding-med-top);
 }
 
 .landing-container picture img{
     border: var(--border);
 }
 
-
-/*.landing-container{
-    padding:  25px 10px;
-}*/
 
 .landing-container .landing-text {
     display: flex;
