@@ -96,6 +96,11 @@ nav.site-menu-bar {
 
 
 /*landing section css*/
+
+.landing {
+    background-color: var(--bg-dark);
+    padding:  40px 0;
+}
 .landing-container {
     padding:  var(--padding-med);
 }
