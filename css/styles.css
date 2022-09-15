@@ -5,19 +5,10 @@
 /*CSS Variables Set Up*/
 :root {
     --light:  #fff;
-    --dark: #2D3142;
-    --dark-pen:  #2d3142;
-    --accent: #EF8354;
-    --light-pen:  #4f5d75;
-    --gray: #bfc0c0;
-    --gray:  #e1e1e1;
+    --dark: #e1e1e1;
+    --marker:  #333;
+    --pen: #333;
 
-
-
-    --bg-dark: #223545;
-    --marker:  #7dc587;
-    --pen: #f5f5ee;
-    --highlighter: #dcde78;
 
     --border:  2px solid black;
     --padding-sm: 20px 15px;
@@ -26,6 +17,7 @@
     --padding-med-top: 25px 0;
     --padding-lg-top: 50px 0;
     --padding-lg:  50px 15px;
+    --padding-xl: 60px 0;
 
 
 }
