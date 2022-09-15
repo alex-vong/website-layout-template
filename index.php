@@ -17,7 +17,7 @@
 
 <body>
     <header class="site-header">
-        <?php 
+       <?php 
             include('site-header.php')
          ?>
     </header>
