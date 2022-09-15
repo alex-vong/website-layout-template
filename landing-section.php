@@ -7,17 +7,17 @@
             <h1 class="main-heading-fs landing-header">
                 Hello! This is just a&nbsp;'diptych'!
             </h1>
-            <p class="text-fs">
+            <p class="desc-fs">
                 It's just a module that has an image and some supporting text. On a smaller screen it works nicely to stack. On a larger screen it fits side by side.
             </p>
 
             <div class="landing-cta">
                 <button>
-                    <a href="" class="link-fs">Find Out More</a>
+                    <a href="" class="text-fs">Find Out More</a>
                 </button>
 
                 <button>
-                    <a href="" class="link-fs">Sign Up</a>
+                    <a href="" class="text-fs">Start Today</a>
                 </button>
             </div>
         </div>
