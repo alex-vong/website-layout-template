@@ -1,12 +1,22 @@
 <inner-column>
 	<section class="cta">
-		<h2 class="desc-fs">
-			This module is a "call to action."
-		</h2>
+		
+		<section class="cta-image">
+			<picture>
+				<img src="https://peprojects.dev/images/square.jpg" alt="cta-image-placeholder">
+			</picture>
+		</section>
 
-		<p class="text-fs">
-			This is a pretty standard part of any website. It usually has some cool heading (like above) along with a description (that's me!) as well as a button (below)
-		</p>
+		<section class="cta-text">
+			<h2 class="desc-fs">
+				This module is a "call to action."
+			</h2>
+
+			<p class="text-fs">
+				This is a pretty standard part of any website. It usually has some cool heading (like above) along with a description (that's me!) as well as a button (below). It is also super responsive!
+			</p>
+
+		</section>
 
 		<button>
 			<a href="" class="button text-fs">Here's the action!</a>
