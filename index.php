@@ -28,9 +28,9 @@
          ?>
     </section>
 
-    <section class="call-to-action">
+    <section class="call-to-action cta-grid">
         <?php 
-            include('cta.php') 
+            include('cta-grid.php') 
         ?>
     </section>
 
@@ -41,7 +41,7 @@
     </section>
 
 
-    <section class="call-to-action">
+    <section class="call-to-action cta-2">
         <?php 
             include('cta.php') 
         ?>
