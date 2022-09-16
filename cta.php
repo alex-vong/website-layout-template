@@ -1,9 +1,9 @@
 <inner-column>
-	<section class="cta">
+	<section class="cta-container cta">
 		
 		<section class="cta-image">
 			<picture>
-				<img src="https://peprojects.dev/images/square.jpg" alt="cta-image-placeholder">
+				<img src="https://peprojects.dev/images/landscape.jpg" alt="cta-image-placeholder">
 			</picture>
 		</section>
 
@@ -13,14 +13,16 @@
 			</h2>
 
 			<p class="text-fs">
-				This is a pretty standard part of any website. It usually has some cool heading (like above) along with a description (that's me!) as well as a button (below). It is also super responsive!
+				This is a pretty standard part of any website. It usually features some image, heading, description, and a button.
 			</p>
+
+			<button>
+				<a href="" class="button link-fs">Here's the action!</a>
+			</button>
 
 		</section>
 
-		<button>
-			<a href="" class="button text-fs">Here's the action!</a>
-		</button>
+
 		
 	</section>
 </inner-column>
