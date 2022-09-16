@@ -16,12 +16,14 @@
 					"button" => "Read More!",
 				];
 
-				for ($index = 0; $index <= 5; $index++) { ?>
+				for ($index = 0; $index < 3; $index++) { ?>
 				<div class="card-container">
 					<div class="grid-card">
 						<h3 class="desc-fs"><?=$gridContent["head"]?></h2>
 						<p class="text-fs"><?=$gridContent["text"]?></p>
-						<button><a href="" class="btn text-fs"><?=$gridContent["button"]?></a></button>
+						<button>
+							<a href="" class="btn text-fs"><?=$gridContent["button"]?></a>
+						</button>
 					</div>
 				</div>
 				<?php }
